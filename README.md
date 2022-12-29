@@ -1,5 +1,7 @@
-[![Travis (.org)](https://img.shields.io/travis/kimmo1019/CausalEGM)](https://app.travis-ci.com/github/kimmo1019/CausalEGM)
 [![PyPI](https://img.shields.io/pypi/v/CausalEGM)](https://pypi.org/project/CausalEGM/)
+[![Travis (.org)](https://img.shields.io/travis/kimmo1019/CausalEGM)](https://app.travis-ci.com/github/kimmo1019/CausalEGM)
+[![Documentation Status](https://readthedocs.org/projects/causalegm/badge/?version=latest)](https://causalegm.readthedocs.io/en/latest/?badge=latest)
+
 
 # CausalEGM
 
@@ -28,4 +30,19 @@ This section provides instructions on how to reproduce results in the our paper.
 ### Simulation data
 
 We tested CausalEGM with simulation datasets first. 
+
+## Contact
+
+Please feel free to open an issue in Github or contact `liuqiao@stanford.edu` if you have any problem in CausalEGM.
+
+
+## Citation
+
+If you find CausalEGM useful for your work, please consider citing our [paper](https://arxiv.org/abs/2212.05925):
+
+Qiao Liu, Zhongren Chen, Wing Hung Wong. CausalEGM: a general causal inference framework by encoding generative modeling[J]. arXiv preprint arXiv:2212.05925, 2022.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
 

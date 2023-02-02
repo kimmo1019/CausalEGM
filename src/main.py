@@ -8,6 +8,7 @@ if __name__=="__main__":
     args = parser.parse_args()
     config = args.config
     with open(config, 'r') as f:
-        params = yaml.load(f)
+        params = yaml.safe_load(f)
+    x,y,v = Semi_acic_sampler(batch_size=32).load_all()
     model = CausalEGM(params,random_seed=123)
-    model.train(n_iter=params['nb_batches'], startoff=0,batches_per_eval=params['batches_per_eval'])
+    model.train(data=[x,y,v],n_iter=30000,save_format='npy')
